@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4faae4ed2c04821cd438e8b4f680e52",
+    "content-hash": "000fadfee37bb0fcc2e521bdbd0eeeca",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -8186,115 +8186,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-elasticsearch",
-            "version": "101.0.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-elasticsearch/magento-module-elasticsearch-101.0.4.0.zip",
-                "shasum": "59cc0bd8094bc28f68339244532a85f35bf1ec9d"
-            },
-            "require": {
-                "elasticsearch/elasticsearch": "~7.16.0",
-                "magento/framework": "103.0.*",
-                "magento/module-advanced-search": "100.4.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-inventory": "100.4.*",
-                "magento/module-catalog-search": "102.0.*",
-                "magento/module-customer": "103.0.*",
-                "magento/module-eav": "102.1.*",
-                "magento/module-search": "101.1.*",
-                "magento/module-store": "101.1.*",
-                "php": "~7.4.0||~8.1.0"
-            },
-            "suggest": {
-                "magento/module-config": "101.2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\Elasticsearch\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-elasticsearch-6",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-elasticsearch-6/magento-module-elasticsearch-6-100.4.4.0.zip",
-                "shasum": "7ff2c20a5dbd04904aea96d06b957d7b9d5500cb"
-            },
-            "require": {
-                "elasticsearch/elasticsearch": "~7.16.0",
-                "magento/framework": "103.0.*",
-                "magento/module-advanced-search": "100.4.*",
-                "magento/module-catalog-search": "102.0.*",
-                "magento/module-elasticsearch": "101.0.*",
-                "magento/module-search": "101.1.*",
-                "php": "~7.4.0||~8.1.0"
-            },
-            "suggest": {
-                "magento/module-config": "101.2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\Elasticsearch6\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-elasticsearch-7",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-elasticsearch-7/magento-module-elasticsearch-7-100.4.4.0.zip",
-                "shasum": "3a085edd82d218a166901e6abad3ad1080b1630c"
-            },
-            "require": {
-                "elasticsearch/elasticsearch": "~7.16.0",
-                "magento/framework": "103.0.*",
-                "magento/module-advanced-search": "100.4.*",
-                "magento/module-catalog-search": "102.0.*",
-                "magento/module-elasticsearch": "101.0.*",
-                "php": "~7.4.0||~8.1.0"
-            },
-            "suggest": {
-                "magento/module-config": "101.2.*",
-                "magento/module-search": "101.1.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\Elasticsearch7\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-email",
             "version": "101.1.4",
             "dist": {
@@ -9697,39 +9588,6 @@
                 ],
                 "psr-4": {
                     "Magento\\InventoryDistanceBasedSourceSelectionApi\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-inventory-elasticsearch",
-            "version": "1.2.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-inventory-elasticsearch/magento-module-inventory-elasticsearch-1.2.1.0.zip",
-                "shasum": "23d8198b76b2a623e7d0bb862e5d74d5ccb64bbc"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-catalog-inventory": "*",
-                "magento/module-catalog-search": "*",
-                "magento/module-inventory-catalog-api": "1.3.*",
-                "magento/module-inventory-indexer": "2.1.*",
-                "magento/module-inventory-sales-api": "1.2.*",
-                "magento/module-store": "*",
-                "php": "~7.4.0||~8.1.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\InventoryElasticsearch\\": ""
                 }
             },
             "license": [
@@ -21219,6 +21077,61 @@
                 "source": "https://github.com/wikimedia/less.php/tree/v3.1.0"
             },
             "time": "2020-12-11T19:33:31+00:00"
+        },
+        {
+            "name": "zepgram/module-disable-search-engine",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zepgram/module-disable-search-engine.git",
+                "reference": "07d3868b6d7537d04480dcedebe3221efd5f4c4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zepgram/module-disable-search-engine/zipball/07d3868b6d7537d04480dcedebe3221efd5f4c4d",
+                "reference": "07d3868b6d7537d04480dcedebe3221efd5f4c4d",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^103.0.4",
+                "magento/module-backend": "^102.0.4",
+                "magento/module-catalog-search": "^102.0.4",
+                "magento/module-indexer": "^100.4.4",
+                "magento/module-search": "^101.1.4",
+                "php": "^7.4||^8.0"
+            },
+            "replace": {
+                "magento/module-elasticsearch": "*",
+                "magento/module-elasticsearch-6": "*",
+                "magento/module-elasticsearch-7": "*",
+                "magento/module-elasticsearch-catalog-permissions": "*",
+                "magento/module-inventory-elasticsearch": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Zepgram\\DisableSearchEngine\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Calef",
+                    "email": "zepgram@gmail.com"
+                }
+            ],
+            "description": "Magento2 module to disable search engine and fulltext indexing for category search",
+            "support": {
+                "issues": "https://github.com/zepgram/module-disable-search-engine/issues",
+                "source": "https://github.com/zepgram/module-disable-search-engine/tree/v0.2.0"
+            },
+            "time": "2022-04-01T20:14:41+00:00"
         }
     ],
     "packages-dev": [
