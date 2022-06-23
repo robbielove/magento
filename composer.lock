@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "000fadfee37bb0fcc2e521bdbd0eeeca",
+    "content-hash": "6204e81cad1a712618466b1d696a6385",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -2016,6 +2016,43 @@
                 }
             ],
             "time": "2022-03-20T21:55:58+00:00"
+        },
+        {
+            "name": "itonomy/productvisibilitygrid",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Itonomy/magento2-product-visibillitygrid.git",
+                "reference": "319012f21b080764bd4cf63f547e43e4712d0873"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Itonomy/magento2-product-visibillitygrid/zipball/319012f21b080764bd4cf63f547e43e4712d0873",
+                "reference": "319012f21b080764bd4cf63f547e43e4712d0873",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=102.0.3",
+                "php": ">=7.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Itonomy\\ProductVisibilityGrid\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/Itonomy/magento2-product-visibillitygrid/issues",
+                "source": "https://github.com/Itonomy/magento2-product-visibillitygrid/tree/2.1.2"
+            },
+            "time": "2021-02-02T11:21:37+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -25528,5 +25565,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
